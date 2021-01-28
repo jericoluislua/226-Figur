@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="585.0">java.awt.event.KeyListener</node>
+    <node x="445.0000000000001" y="573.0">Rechteck</node>
+    <node x="1111.0" y="584.0">EditorPanel</node>
+    <node x="1055.2824242424244" y="1263.0">Grafikeditor</node>
+    <node x="649.3869696969698" y="255.5">Figur</node>
+    <node x="0.0" y="838.0">java.awt.event.KeyAdapter</node>
+    <node x="667.0000000000001" y="573.0">Linie</node>
+    <node x="877.0000000000001" y="573.0">Zeichnung</node>
+    <node x="1332.5324242424244" y="212.0">java.awt.event.MouseAdapter</node>
+    <node x="1013.2824242424244" y="1072.0">EditorFrame</node>
+    <node x="761.2824242424244" y="782.0">EditorControl</node>
+    <node x="1038.5324242424244" y="189.0">javax.swing.JPanel</node>
+    <node x="1361.0324242424244" y="0.0">java.awt.event.MouseListener</node>
+    <node x="236.00000000000023" y="584.0">Kreis</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Zeichnung" target="Figur">
+      <point x="-71.33333333333326" y="-59.5" />
+      <point x="912.6666666666669" y="533.0" />
+      <point x="810.0369696969699" y="533.0" />
+      <point x="66.15000000000003" y="70.5" />
+    </edge>
+    <edge source="Linie" target="Figur">
+      <point x="47.25" y="-59.5" />
+      <point x="808.7500000000001" y="553.0" />
+      <point x="772.2369696969698" y="553.0" />
+      <point x="28.350000000000023" y="70.5" />
+    </edge>
+    <edge source="Kreis" target="Figur">
+      <point x="-47.25" y="-48.5" />
+      <point x="283.2500000000002" y="513.0" />
+      <point x="677.7369696969698" y="513.0" />
+      <point x="-66.14999999999998" y="70.5" />
+    </edge>
+    <edge source="EditorFrame" target="javax.swing.JPanel">
+      <point x="105.41666666666663" y="-70.5" />
+      <point x="1245.199090909091" y="1052.0" />
+      <point x="1361.5" y="1052.0" />
+      <point x="1361.5" y="543.0" />
+      <point x="1278.2824242424244" y="543.0" />
+      <point x="102.75" y="137.0" />
+    </edge>
+    <edge source="EditorPanel" target="EditorControl">
+      <point x="-20.0" y="48.5" />
+      <point x="1211.0" y="752.0" />
+      <point x="1015.1915151515152" y="752.0" />
+      <point x="106.90909090909088" y="-115.0" />
+    </edge>
+    <edge source="EditorFrame" target="EditorControl">
+      <point x="-63.25" y="-70.5" />
+      <point x="1076.5324242424244" y="1042.0" />
+      <point x="834.7824242424244" y="1042.0" />
+      <point x="-73.5" y="115.0" />
+    </edge>
+    <edge source="EditorPanel" target="javax.swing.JPanel">
+      <point x="-60.0" y="-48.5" />
+      <point x="1171.0" y="553.0" />
+      <point x="1209.7824242424244" y="553.0" />
+      <point x="34.25" y="137.0" />
+    </edge>
+    <edge source="EditorControl" target="Linie">
+      <point x="-53.45454545454544" y="-115.0" />
+      <point x="854.827878787879" y="732.0" />
+      <point x="761.5000000000001" y="732.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="EditorControl" target="Rechteck">
+      <point x="-80.18181818181813" y="-115.0" />
+      <point x="828.1006060606062" y="742.0" />
+      <point x="546.0000000000001" y="742.0" />
+      <point x="0.0" y="59.5" />
+    </edge>
+    <edge source="java.awt.event.KeyAdapter" target="java.awt.event.KeyListener">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="47.5" />
+    </edge>
+    <edge source="Rechteck" target="Figur">
+      <point x="50.5" y="-59.5" />
+      <point x="596.5000000000001" y="543.0" />
+      <point x="734.4369696969698" y="543.0" />
+      <point x="-9.449999999999989" y="70.5" />
+    </edge>
+    <edge source="Zeichnung" target="javax.swing.JPanel">
+      <point x="71.33333333333337" y="-59.5" />
+      <point x="1055.3333333333335" y="553.0" />
+      <point x="1141.2824242424244" y="553.0" />
+      <point x="-34.25" y="137.0" />
+    </edge>
+    <edge source="EditorControl" target="Figur">
+      <point x="-26.727272727272748" y="-115.0" />
+      <point x="881.5551515151517" y="762.0" />
+      <point x="866.5000000000001" y="762.0" />
+      <point x="866.5000000000001" y="543.0" />
+      <point x="791.1369696969698" y="543.0" />
+      <point x="47.25" y="70.5" />
+    </edge>
+    <edge source="EditorPanel" target="java.awt.event.MouseAdapter">
+      <point x="60.0" y="-48.5" />
+      <point x="1291.0" y="553.0" />
+      <point x="1486.0324242424244" y="553.0" />
+      <point x="0.0" y="114.0" />
+    </edge>
+    <edge source="EditorControl" target="EditorPanel">
+      <point x="53.45454545454538" y="-115.0" />
+      <point x="961.7369696969697" y="732.0" />
+      <point x="1131.0" y="732.0" />
+      <point x="-100.0" y="48.5" />
+    </edge>
+    <edge source="EditorControl" target="Kreis">
+      <point x="-106.90909090909088" y="-115.0" />
+      <point x="801.3733333333334" y="752.0" />
+      <point x="330.5000000000002" y="752.0" />
+      <point x="0.0" y="48.5" />
+    </edge>
+    <edge source="EditorControl" target="Zeichnung">
+      <point x="26.727272727272748" y="-115.0" />
+      <point x="935.0096969696972" y="722.0" />
+      <point x="1037.5000000000002" y="722.0" />
+      <point x="53.5" y="59.5" />
+    </edge>
+    <edge source="java.awt.event.MouseAdapter" target="java.awt.event.MouseListener">
+      <point x="0.0" y="-114.0" />
+      <point x="0.0" y="69.5" />
+    </edge>
+    <edge source="EditorFrame" target="java.awt.event.KeyAdapter">
+      <point x="-105.41666666666663" y="-70.5" />
+      <point x="1034.3657575757577" y="1052.0" />
+      <point x="107.5" y="1052.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="javax.swing.JPanel" target="javax.swing.JPanel">
+      <point x="-102.75" y="137.0" />
+      <point x="1072.7824242424244" y="483.0" />
+      <point x="1018.5324242424244" y="483.0" />
+      <point x="1018.5324242424244" y="326.0" />
+      <point x="-137.0" y="-0.0" />
+    </edge>
+    <edge source="EditorFrame" target="EditorPanel">
+      <point x="63.25" y="-70.5" />
+      <point x="1203.0324242424244" y="1042.0" />
+      <point x="1294.2824242424244" y="1042.0" />
+      <point x="1294.2824242424244" y="762.0" />
+      <point x="1331.0" y="762.0" />
+      <point x="100.0" y="48.5" />
+    </edge>
+    <edge source="Grafikeditor" target="EditorFrame">
+      <point x="-42.25" y="-37.0" />
+      <point x="1097.5324242424244" y="1238.0" />
+      <point x="1076.5324242424244" y="1238.0" />
+      <point x="-63.25" y="70.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.729664660361135" x="496.35060031830557" y="548.6370259060083" />
+  <SelectedNodes>
+    <node>javax.swing.JPanel</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
